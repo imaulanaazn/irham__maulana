@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <title>Irham Maulana | frontend developer</title>
+    </head>
+    <body>
+
+         <!-- HEADER -->
+         <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">
+                        <img src="img/myLogo.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Irham Maulana</span><br> Web Developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://twitter.com/irham__maulana" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="https://github.com/imaulanaazn" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="bg__img">    
+                    <!-- <img src="img/profile.png" alt=""> -->
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title" 
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="0"
+                >
+                    About
+                </h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+                        <img src="img/about.svg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="140">I'am Irham Maulana</h2>
+                        <p class="about__text" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="140">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sapiente cupiditate libero obcaecati. Dolores, quod minima voluptates illo aliquid ipsa, aut sed consequuntur delectus magni enim praesentium, et doloremque alias.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div data-aos="fade-in" data-aos-duration="1000" data-aos-offset="140">
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data__container">
+                            <div class="skill__html skill">
+                                <i class='bx bxl-html5'></i>
+                                <span class="skill__name">HTML</span>
+                            </div>
+                            <div class="skill__css skill">
+                                <i class='bx bxl-css3' ></i>
+                                <span class="skill__name">CSS</span>
+                            </div>
+                            <div class="skill__javascript skill">
+                                <i class='bx bxl-javascript' ></i>
+                                <span class="skill__name">Javascript</span>
+                            </div>
+                            <div class="skill__tailwind skill">
+                                <img src="img/tailwindcss.svg" alt="">
+                                <span class="skill__name">Tailwind</span>
+                            </div>
+                            <div class="skill__mui skill">
+                                <img src="img/material-ui.svg" alt="">
+                                <span class="skill__name">MUI</span>
+                            </div>
+                            <div class="skill__reactjs skill">
+                                <i class='bx bxl-react' ></i>
+                                <span class="skill__name">React JS</span>
+                            </div>
+                            <div class="skill__nextjs skill">
+                                <img src="img/next-js.svg" alt="">
+                                <span class="skill__name">Next JS</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">              
+                        <img src="img/skills.svg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://furnme.netlify.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb1.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">React JS</li>
+                            <li class="work__tech">Tailwind</li>
+                            <li class="work__tech">redux</li>
+                        </ul>
+                    </a>
+                    <a href="https://storegg-top.vercel.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb2.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">Mongo DB</li>
+                            <li class="work__tech">Express JS</li>
+                            <li class="work__tech">React JS</li>
+                            <li class="work__tech">Next JS</li>
+                            <li class="work__tech">Node JS</li>
+                        </ul>
+                    </a>
+                    <a href="https://notebook-me.vercel.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb3.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">React JS</li>
+                            <li class="work__tech">Next JS</li>
+                            <li class="work__tech">Material UI</li>
+                            <li class="work__tech">redux</li>
+                        </ul>
+                    </a>
+                    <a href="https://bchainer.netlify.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb4.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">React JS</li>
+                            <li class="work__tech">Material UI</li>
+                        </ul>
+                    </a>
+                    <a href="https://my-quest.vercel.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb5.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">React JS</li>
+                            <li class="work__tech">Material UI</li>
+                        </ul>
+                    </a>
+                    <a href="https://maulanairham.netlify.app" target="_blank" class="work__img">
+                        <img src="img/work-thumb6.webp" alt="">
+                        <ul class="work__techs">
+                            <li class="work__tech">HTML</li>
+                            <li class="work__tech">Tailwind</li>
+                            <li class="work__tech">Javascript</li>
+                        </ul>
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enter" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Irham Maulana</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
