@@ -395,21 +395,20 @@ img{
 .footer{
   background-color: var(--second-color);
   color: #fff;
-  text-align: center;
-  font-weight: var(--font-semi);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  font-weight: 400;
   padding: 2rem 0;
 }
 .footer__title{
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-.footer__social{
-  margin-bottom: var(--mb-4);
+  font-size: 1.1rem;
 }
 .footer__icon{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #fff;
-  margin: 0 var(--mb-2)
+  margin: 0 0.6rem;
 }
 
 /* ===== MEDIA QUERIES=====*/
